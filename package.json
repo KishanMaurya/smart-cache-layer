@@ -1,6 +1,6 @@
 {
-  "name": "smart-cache-layer",
-  "version": "1.0.1",
+  "name": "smart-cache-layer-ttl",
+  "version": "1.0.0",
   "description": "A dynamic smart cache with TTL and persistence (File/S3) support",
   "main": "src/index.js",
   "types": "src/index.d.ts",
