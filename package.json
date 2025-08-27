@@ -1,0 +1,17 @@
+{
+  "name": "smart-cache-layer",
+  "version": "1.0.0",
+  "description": "A dynamic smart cache with TTL and persistence (File/S3) support",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "node tests/test.js",
+    "lint": "eslint ."
+  },
+  "keywords": ["cache", "ttl", "persistence", "s3", "nodejs"],
+  "author": "Kishan Maurya",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1485.0"
+  }
+}

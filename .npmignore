@@ -1,0 +1,26 @@
+# Ignore tests
+tests/
+__tests__/
+
+# Ignore GitHub Actions / CI configs
+.github/
+.gitignore
+.gitattributes
+
+# Ignore development configs
+.eslintrc.js
+.prettierrc
+.vscode/
+.idea/
+
+# Ignore environment and logs
+.env
+*.log
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
+
+# Ignore local build/coverage
+coverage/
+dist/
